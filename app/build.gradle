@@ -23,6 +23,9 @@ dependencies {
     implementation libs.guava
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.6'
     implementation 'org.mindrot:jbcrypt:0.4'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
